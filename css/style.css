@@ -245,6 +245,11 @@ p {
   margin-top: 52px;
 }
 
+.resume hr{
+  border: 0.50px solid var(--dark-color);
+  width: 482px;
+
+}
 .resume-info {
   max-width: 511px;
   margin-bottom: 45px;
