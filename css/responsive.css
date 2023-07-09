@@ -1,87 +1,108 @@
 @media screen and (max-width: 991px) {
-    header.nav{
-        position: fixed;
-        width: 100%;
-        z-index: 99;
-        top: 0;
-        left: 0;
-        flex-wrap: wrap;
-    }
+  header.nav {
+    position: fixed;
+    /* width: 100%; */
+    z-index: 99;
+    top: 0;
+    left: 0;
+    /* flex-wrap: wrap; */
+  }
 
-    a.logo {
-        max-width: 100px;
-    }
+  a.logo {
+    max-width: 100px;
+  }
 
-    .mobile-bars a {
-        display: block;
-        width: 40px;
-    }
+  .mobile-bars a {
+    display: block;
+    width: 40px;
+  }
 
-    .mobile-bars a> span {
-        background-color: #fd6e0a;
-        border-radius: 2px;
-        display: block;
-        height: 6px;
-        margin: 5px 0;
-        width: 40px;
-        transition: all 0.3s;
-    }
+  .mobile-bars a > span {
+    background-color: #fd6e0a;
+    border-radius: 2px;
+    display: block;
+    height: 6px;
+    margin: 5px 0;
+    width: 40px;
+    transition: all 0.3s;
+  }
 
-    body.menu-open .mobile-bars a> span:first-child {
-        margin-top: 16px;
-        transform: rotate(50deg);
-        height: 5px;
-    }
+  body.menu-open .mobile-bars a > span:first-child {
+    margin-top: 16px;
+    transform: rotate(50deg);
+    height: 5px;
+  }
 
-   
-    body.menu-open .mobile-bars a> span:last-child {
-        margin-top: -10px;
-        transform: rotate(-50deg);
-        height: 5px;
-      }
-    body.menu-open .mobile-bars a> span:nth-child(2) {
-        display: none;
-    }
+  body.menu-open .mobile-bars a > span:last-child {
+    margin-top: -10px;
+    transform: rotate(-50deg);
+    height: 5px;
+  }
+  body.menu-open .mobile-bars a > span:nth-child(2) {
+    display: none;
+  }
 
-    body.menu-open .logo {
-        display: none;
-    }
+  body.menu-open .logo {
+    display: none;
+  }
 
-    .main-menu ul {
-        margin-left: inherit;
-    }
+  .main-menu ul {
+    margin-left: inherit;
+  }
 
-    .main-menu ul li {
-        display: block;
-        width: 100%;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 22px;
-    }
+  .main-menu ul li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 22px;
+  }
 
-    .about-info-container{
-        display: flex;
-        flex-direction: column;
-        
-    }
+   .header ul  a, .button {
+    text-align: center;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     max-width: 150px;
+     
+  }
+  .info {
+    margin-top: 15px;
+  }
 
-    .info{
-        margin-top: 15px;
-    }
+  .expert {
+    text-align: center;
+  }
+  .social-icon {
+    margin-bottom: 35px;
+  }
+  .banner-img {
+    margin-top: 52px;
+    max-width: 100%;
+  }
 
-    .expert{
-        text-align: center;
-    }
-    .social-icon{
-        margin-bottom: 35px;
-      }
-      .banner-img{
-        margin-top: 52px;
-       }
-  
+.resume-content{
+  max-width: 100%;
 }
 
-@media screen and (max-width: 991px){
- 
 
+}
+
+@media screen and (max-width: 767px){
+  .about-info-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .resume-head{
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 425px){
+ .banner .btn-group{
+   display: flex;
+   flex-direction: column;
+ }
 }

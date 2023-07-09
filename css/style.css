@@ -85,15 +85,13 @@ p {
 }
 
 .button {
-  width: 150px;
-  height: 64px;
+  border-radius: 5px;
   background: #fd6e0a;
-  border-radius: "5px";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--white-color);
+  border: 0;
+  color: white;
   font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
   font-family: Open Sans;
   font-weight: 700;
   word-wrap: break-word;
@@ -197,7 +195,7 @@ p {
   border: 0.5px #fd6e0a solid;
 }
 
-.banner-img{
+.banner-img {
   max-width: 584px;
   height: 676px;
 }
@@ -232,30 +230,13 @@ p {
   margin-bottom: 27px;
 }
 
-/* resume related styles */
-.resume {
-  margin-top: 130px;
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 
-.resume .container {
-  max-width: 1093px;
-}
-
-.resume-content {
-  margin-top: 52px;
-}
-
-.resume hr{
-  border: 0.50px solid var(--dark-color);
-  width: 482px;
-
-}
-.resume-info {
-  max-width: 511px;
-  margin-bottom: 45px;
-}
-
-/* About related styles */
 .experience-btn i {
   margin-right: 8px;
 }
@@ -263,8 +244,52 @@ p {
   color: var(--white-color);
 }
 
-.contact input[type="text"],
-.contact input[type="email"],
+/* resume related styles */
+.resume {
+  margin-top: 130px;
+}
+
+.resume-head {
+  margin-bottom: 52px;
+  text-align: center;
+}
+.resume .container {
+  max-width: 1093px;
+}
+
+.resume hr {
+  border: 0.5px solid var(--dark-color);
+  max-width: 482px;
+}
+.resume-info {
+  max-width: 511px;
+  margin-bottom: 45px;
+}
+
+/* footer related styles */
+.footer {
+  margin-top: 130px;
+}
+
+.footer .container {
+  max-width: 984px;
+}
+.footer-content p {
+  max-width: 562px;
+}
+
+.footer-content h2 {
+  margin-bottom: 35px;
+}
+
+.social-icon i {
+  margin-right: 24px;
+  font-size: 24px;
+  color: var(--orange-color);
+}
+
+.footer input[type="text"],
+.footer input[type="email"],
 textarea {
   display: block;
   margin-bottom: 25px;
@@ -279,28 +304,6 @@ textarea {
   font-weight: 400;
   line-height: 28px;
   word-wrap: break-word;
-}
-
-/* contact related styles */
-.contact {
-  margin-top: 130px;
-}
-
-.contact .container {
-  max-width: 984px;
-}
-.contact-content p {
-  max-width: 562px;
-}
-
-.contact-content h2 {
-  margin-bottom: 35px;
-}
-
-.social-icon i {
-  margin-right: 24px;
-  font-size: 24px;
-  color: var(--orange-color);
 }
 
 .submit-button {
